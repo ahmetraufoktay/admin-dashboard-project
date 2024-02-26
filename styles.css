@@ -174,3 +174,32 @@ button {
     border-radius: 50%;
     border: gray solid 1px;
 }
+.announcements {
+    display: grid;
+    grid-template-rows: 70px 3fr 3fr 3fr;
+    margin:10px 20% 10px 0px;
+}
+.announcements > h3:nth-of-type(1) {
+    font-size: 24px;
+}
+.announcements > div {
+    background-color: white;
+    display: flex;
+    justify-content: center;
+}
+.announcements > div:first-of-type {
+    border-radius: 10px 10px 0px 0px;
+}
+.announcements > div:last-of-type {
+    border-radius: 0px 0px 10px 10px;
+}
+.announcement {
+    width: 80%;
+    border-bottom: 2px solid rgb(202, 202, 202);
+}
+.last {
+    border-bottom: none;
+}
+.announcement > h3 {
+    margin-left: 20px;
+}
